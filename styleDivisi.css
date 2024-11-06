@@ -14,6 +14,12 @@
     font-family: "Kaushan Script", cursive ;
     color: #9F0D0F;
 }
+#proker a{
+    font-size: x-large;
+    font-weight:bold;
+    font-family: "Kaushan Script", cursive ;
+    color: #9F0D0F;
+}
 #proker p{
     font-family:  "Jacquarda Bastarda 9 Charted", serif;
     color: #E9E7E6;
@@ -28,3 +34,21 @@
     border-top-width: 1px; 
     border-top-color: #9F0D0F; 
 }
+#proker a {
+    display: inline-block; 
+    width: 200px; 
+    height: auto; 
+}
+#proker a img {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px;
+}
+#proker a + p {
+    font-size: 14px;
+    color: #6c6161;
+    margin-top: 8px;
+    text-align: center;
+}
+  
+  
